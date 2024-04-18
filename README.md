@@ -1,1 +1,1 @@
-# test-jenkins-python
+# jenkins-example-scripts-python
