@@ -8,6 +8,7 @@ pipeline {
     }
     stage('hello') {
       steps {
+        sh 'pip3 install docx2pdf'
         sh 'python3 hello.py'
       }
     }
