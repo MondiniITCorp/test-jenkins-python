@@ -8,7 +8,7 @@ pipeline {
     }
     stage('hello') {
       steps {
-        sh 'pip3 install docx2pdf'
+        sh 'pip3 install python-docx reportlab'
         sh 'python3 hello.py'
       }
     }
